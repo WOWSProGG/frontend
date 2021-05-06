@@ -1,0 +1,66 @@
+.csHeaderCont {
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.csItem {
+    align-self: center;
+    /* width: 100%;
+    align-self: center;
+    margin-left: 5rem; */
+}
+
+.csBannerCont {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin: 1rem 1rem 1rem 1rem;
+
+    justify-self: center;
+}
+
+.csBanner {
+    max-height: 90vh;
+}
+
+.bannerImage {
+    width: auto;
+    height: auto;
+    margin: auto;
+    max-height: 80vh;
+}
+
+.csContent {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.csHeadingGroup {
+    align-self: center;
+    margin-top: -200px;
+    margin-bottom: 0px;
+}
+
+.csHeading {
+    text-align: center;
+    line-height: 0.25rem;
+}
+
+.csHeading-1 {
+    font-size: 5rem;
+}
+
+.csHeading-2 {
+    font-size: 1rem;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

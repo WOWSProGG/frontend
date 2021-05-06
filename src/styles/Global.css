@@ -1,0 +1,46 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.flexItem {
+    align-self: flex-start;
+}
+
+.content {
+    background-color: #061931;
+    color: whitesmoke;
+    min-height: 100vh;
+}
+
+.header {
+    min-height: 10vh;
+    max-height: 82px;
+}
+
+.logo {
+    max-width: 2rem;
+    max-height: 2rem;
+}
+
+.text {
+    margin: 1rem;
+}
