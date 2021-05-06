@@ -1,4 +1,5 @@
 import "./styles/Global.css";
+import "./styles/Mobile.css";
 import "./styles/App.css";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
                         alt="Massachussettes from the December 2020 campaign, with a NYC and Libery in background."
                     />
                 </div>
-                <div class="flexItem csHeadingGroup">
+                <div className="flexItem csHeadingGroup">
                     <h1 className="csHeading csHeading-1">Coming Soon</h1>
                     <h2 className="csHeading csHeading-2">Just getting started, it will take a while!</h2>
                 </div>

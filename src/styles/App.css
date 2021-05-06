@@ -56,11 +56,50 @@
     font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .csHeadingGroup {
+        align-self: center;
+        margin-top: -50px;
+        order: -1;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
-    to {
-        transform: rotate(360deg);
+
+    .csHeading-1 {
+        font-size: 3rem;
     }
+
+    .csHeading-2 {
+        font-size: 1em;
+    }
+}
+
+/* Default Tab breakpoint*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .csBanner {
+    }
+
+    .bannerImage {
+        width: auto;
+        height: auto;
+        margin: auto;
+        max-height: 70vh;
+    }
+
+    .csHeadingGroup {
+        align-self: center;
+        margin-top: -90px;
+    }
+
+    .csHeading-1 {
+        font-size: 2rem;
+    }
+
+    .csHeading-2 {
+        font-size: 1em;
+    }
+}
+
+/* Default Desktop breakpoint*/
+@media screen and (min-width: 992px) {
 }
