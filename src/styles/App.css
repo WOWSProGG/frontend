@@ -56,6 +56,19 @@
     font-size: 1rem;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) and (orientation: landscape) {
+    .content {
+        background-color: aqua;
+        width: 100%;
+        max-height: 90vh;
+    }
+
+    .bannerImage {
+        width: auto;
+        height: auto;
+    }
+}
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
     .csHeadingGroup {
         align-self: center;
@@ -76,9 +89,6 @@
 
 /* Default Tab breakpoint*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .csBanner {
-    }
-
     .bannerImage {
         width: auto;
         height: auto;
