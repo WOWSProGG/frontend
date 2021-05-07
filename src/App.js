@@ -1,44 +1,22 @@
-import { Image } from "./atoms/Image";
-import { Heading } from "./atoms/Heading";
+// External
+import { Container, Row, Col } from "react-bootstrap";
 
-// Stylesheets
-import "./styles/Global.css";
-import "./styles/Mobile.css";
-import "./styles/App.css";
+// internal
+import { ComingSoon } from "./pages/ComingSoon";
 
 function App() {
-    return (
-        <div className="flexContainer content csContent">
-            <header className="flexItem header">
-                <div className="flexContainer csHeaderCont">
-                    <Image
-                        className="csItem logo"
-                        src="/assets/img/brand/logo_wows_legends.png"
-                        alt="Logo for World of Warships Stats"
-                    />
-                    <Heading type="h3">World of Warships: Statistics</Heading>
-                </div>
-            </header>
-
-            <section className="flexContainer csBannerCont">
-                <div className="flexItem csBanner">
-                    <Image
-                        className="bannerImage"
-                        src="/assets/img/banners/WoWSL_Mass.jpg"
-                        alt="Massachussettes from the December 2020 campaign, with a NYC and Libery in background."
-                    />
-                </div>
-                <div className="flexItem csHeadingGroup">
-                    <Heading type="h1" className="csHeading csHeading-1">
-                        Coming Soon
-                    </Heading>
-                    <Heading type="h1" className="csHeading csHeading-2">
-                        Just getting started. This will take a while!{" "}
-                    </Heading>
-                </div>
-            </section>
-        </div>
-    );
+    return <ComingSoon />;
 }
 
 export default App;
+
+//TODO: to be removed. these exist for reference
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+// <Container>
+// <Row lg={4}>
+//     <Col>1 of 3</Col>
+//     <Col>2 of 3</Col>
+//     <Col>3 of 3</Col>
+// </Row>
+// </Container>
