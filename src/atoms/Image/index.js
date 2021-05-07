@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./image.css";
-
 export class Image extends React.Component {
     constructor(props) {
         super();
@@ -11,9 +10,12 @@ export class Image extends React.Component {
         let src = props.src;
         let alt = props.alt;
 
-        if (src === null || src === "") {
+        if (props.src === null || props.src === "") {
             src = "/assets/img/brand/logo_wows_legends.png";
-            alt = "Logo for World of Warships Stats";
+        }
+
+        if (props.alt === null || props.alt === "") {
+            alt = ""; // if not provided, alt will be empty.
         }
 
         this.state = {

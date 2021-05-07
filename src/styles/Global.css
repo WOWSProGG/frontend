@@ -1,16 +1,11 @@
-/* Global Styles */
+/* Sizing(s) | Global */
 * {
     box-sizing: border-box;
 }
 
+/* Typography | Global */
 body {
     font-family: "Ubuntu", sans-serif;
-}
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
 }
 
 .flexContainer {
