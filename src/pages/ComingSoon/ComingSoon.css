@@ -1,0 +1,114 @@
+.csHeaderCont {
+    flex-direction: row;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.csItem {
+    align-self: center;
+    /* width: 100%;
+    align-self: center;
+    margin-left: 5rem; */
+}
+
+.csBannerCont {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin: 1rem 1rem 1rem 1rem;
+
+    justify-self: center;
+}
+
+.csBanner {
+    max-height: 90vh;
+}
+
+.bannerImage {
+    max-width: 80vw;
+}
+
+.csContent {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.csHeadingGroup {
+    align-self: center;
+    margin-top: -200px;
+    margin-bottom: 0px;
+}
+
+.csHeading {
+    text-align: center;
+    line-height: 0.25rem;
+}
+
+.csHeading-1 {
+    font-size: 5rem;
+}
+
+.csHeading-2 {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .content {
+        /* background-color: blueviolet; */
+    }
+
+    .csHeadingGroup {
+        align-self: center;
+        justify-content: flex-start;
+        order: -1;
+        margin-top: 10vh;
+        margin-bottom: 2vh;
+    }
+
+    .csHeading-1 {
+        font-size: 2rem;
+    }
+
+    .csHeading-2 {
+        font-size: 0.9rem;
+    }
+}
+
+/* Default Tab breakpoint*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .content {
+        /* background-color: chocolate; */
+    }
+
+    .bannerImage {
+        width: auto;
+        height: auto;
+        margin: auto;
+        max-height: 70vh;
+    }
+
+    .csHeadingGroup {
+        align-self: center;
+        margin-top: -30px;
+    }
+
+    .csHeading-1 {
+        font-size: 2rem;
+    }
+
+    .csHeading-2 {
+        font-size: 1em;
+    }
+}
+
+/* Default Desktop breakpoint*/
+@media screen and (min-width: 992px) {
+    .content {
+        /* background-color: tomato; */
+    }
+
+    .bannerImage {
+        max-width: 80vw;
+    }
+}

@@ -1,35 +1,22 @@
-import "./styles/Global.css";
-import "./styles/App.css";
+// External
+import { Container, Row, Col } from "react-bootstrap";
+
+// internal
+import { ComingSoon } from "./pages/ComingSoon";
 
 function App() {
-    return (
-        <div className="flexContainer content csContent">
-            <header className="flexItem header">
-                <div className="flexContainer csHeaderCont">
-                    <img
-                        className="flexItem csItem logo"
-                        src="/assets/img/brand/logo_wows_legends.png"
-                        alt="Logo for World of Warships Stats"
-                    ></img>
-                    <p className="flexItem text">World of Warships: Statistics</p>
-                </div>
-            </header>
-
-            <section className="flexContainer csBannerCont">
-                <div className="flexItem csBanner">
-                    <img
-                        className="bannerImage"
-                        src="./assets/img/banners/WoWSL_Mass.jpg"
-                        alt="Massachussettes from the December 2020 campaign, with a NYC and Libery in background."
-                    />
-                </div>
-                <div class="flexItem csHeadingGroup">
-                    <h1 className="csHeading csHeading-1">Coming Soon</h1>
-                    <h2 className="csHeading csHeading-2">Just getting started, it will take a while!</h2>
-                </div>
-            </section>
-        </div>
-    );
+    return <ComingSoon />;
 }
 
 export default App;
+
+//TODO: to be removed. these exist for reference
+// import "bootstrap/dist/css/bootstrap.min.css";
+
+// <Container>
+// <Row lg={4}>
+//     <Col>1 of 3</Col>
+//     <Col>2 of 3</Col>
+//     <Col>3 of 3</Col>
+// </Row>
+// </Container>

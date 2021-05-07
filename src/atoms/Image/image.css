@@ -1,0 +1,10 @@
+/* Hold block styles for image */
+
+.img {
+    width: auto;
+    height: auto;
+
+    margin: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
