@@ -1,11 +1,11 @@
 import React from "react";
 
 // atoms
-import { Image } from "./../../atoms/Image";
-import { Heading } from "./../../atoms/Heading";
+import { Image } from "../../components/atoms/Image";
+import { Heading } from "../../components/atoms/Heading";
 
-import "./../../styles/Global.css";
-import "./../../styles/Mobile.css";
+import "./Global.css";
+import "./Mobile.css";
 import "./ComingSoon.css";
 
 export class ComingSoon extends React.Component {

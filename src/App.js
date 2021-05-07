@@ -3,9 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 
 // internal
 import { ComingSoon } from "./pages/ComingSoon";
+import { HomePage } from "./pages/HomePage";
 
 function App() {
     return <ComingSoon />;
+    // return <HomePage />;
 }
 
 export default App;
