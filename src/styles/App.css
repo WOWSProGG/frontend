@@ -26,7 +26,7 @@
 }
 
 .bannerImage {
-    max-height: 80vh;
+    max-width: 80vw;
 }
 
 .csContent {
@@ -106,5 +106,9 @@
 @media screen and (min-width: 992px) {
     .content {
         /* background-color: tomato; */
+    }
+
+    .bannerImage {
+        max-width: 80vw;
     }
 }

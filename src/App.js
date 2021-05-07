@@ -1,5 +1,5 @@
 import { Image } from "./atoms/Image";
-import Heading from "./atoms/Heading";
+import { Heading } from "./atoms/Heading";
 
 // Stylesheets
 import "./styles/Global.css";
@@ -16,21 +16,25 @@ function App() {
                         src="/assets/img/brand/logo_wows_legends.png"
                         alt="Logo for World of Warships Stats"
                     />
-                    <Heading />
+                    <Heading type="h3">World of Warships: Statistics</Heading>
                 </div>
             </header>
 
             <section className="flexContainer csBannerCont">
                 <div className="flexItem csBanner">
-                    <img
+                    <Image
                         className="bannerImage"
-                        src="./assets/img/banners/WoWSL_Mass.jpg"
+                        src="/assets/img/banners/WoWSL_Mass.jpg"
                         alt="Massachussettes from the December 2020 campaign, with a NYC and Libery in background."
                     />
                 </div>
                 <div className="flexItem csHeadingGroup">
-                    <h1 className="csHeading csHeading-1">Coming Soon</h1>
-                    <h2 className="csHeading csHeading-2">Just getting started. This will take a while!</h2>
+                    <Heading type="h1" className="csHeading csHeading-1">
+                        Coming Soon
+                    </Heading>
+                    <Heading type="h1" className="csHeading csHeading-2">
+                        Just getting started. This will take a while!{" "}
+                    </Heading>
                 </div>
             </section>
         </div>
