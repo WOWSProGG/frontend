@@ -1,12 +1,15 @@
 import React from "react";
 
-class Image extends React.Component {
+import "./image.css";
+
+export class Image extends React.Component {
     constructor(props) {
         super();
 
+        const className = `img ${props.className}`;
+
         let src = props.src;
         let alt = props.alt;
-        let className = "flexItem";
 
         if (src === null || src === "") {
             src = "/assets/img/brand/logo_wows_legends.png";
@@ -14,7 +17,7 @@ class Image extends React.Component {
         }
 
         this.state = {
-            className: className + " " + props.className,
+            className: className,
             src: src,
             alt: alt,
         };
@@ -24,5 +27,3 @@ class Image extends React.Component {
         return <img className={this.state.className} src={this.state.src} alt={this.state.alt}></img>;
     }
 }
-
-export default Image;

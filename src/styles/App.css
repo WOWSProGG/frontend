@@ -26,9 +26,6 @@
 }
 
 .bannerImage {
-    width: auto;
-    height: auto;
-    margin: auto;
     max-height: 80vh;
 }
 
